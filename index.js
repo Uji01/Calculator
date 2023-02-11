@@ -38,7 +38,7 @@ function calculate(exp){
         animation2();
     }
 
-    if(ex1.length >= 11)
+    if(ex1.length >= 11 && $(window).width() > 800)
     {
         scaleDownOutput();
     }
